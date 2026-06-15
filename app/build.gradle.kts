@@ -91,6 +91,8 @@ dependencies {
   implementation(libs.androidx.room.ktx)
   implementation(libs.androidx.room.runtime)
   implementation("org.tensorflow:tensorflow-lite:2.16.1")
+  implementation("org.tensorflow:tensorflow-lite-support:0.4.4")
+  implementation("ai.picovoice:porcupine-android:3.0.1")
   implementation("io.ktor:ktor-client-core:3.0.0")
   implementation("io.ktor:ktor-client-okhttp:3.0.0")
   implementation("io.ktor:ktor-client-content-negotiation:3.0.0")
